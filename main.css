@@ -17,13 +17,19 @@ body{
 
 #icon
 {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #header{
     height: 50px;
     width 100%;
-    margin-top: 25px;
+    margin-top: 20px;
+}
+
+.page{
+    overflow:hidden; 
+    margin:0;
+    background-color: white;
 }
 
 ld{
@@ -35,5 +41,12 @@ ld{
 
 ld:hover{
     color: #8ff8ff;
+}
+
+h1{
+    font-family: 'walkway_boldregular';
+    color: white;
+    font-size: 40px;
+    margin-top: 4%; 
 }
     

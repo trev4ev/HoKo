@@ -26,10 +26,15 @@ body{
     margin-top: 20px;
 }
 
-.page{
-    overflow:hidden; 
-    margin:0;
+#white{
     background-color: white;
+}
+
+#text{
+    width: 50%;
+    height: 85%;
+    margin: auto;
+    padding-top: 8%;
 }
 
 ld{
@@ -48,5 +53,32 @@ h1{
     color: white;
     font-size: 40px;
     margin-top: 4%; 
+}
+
+h2{
+    font-family: 'walkway_boldregular';
+    font-size: 40px;
+    color: #8ff8ff;
+}
+
+p{
+    font-family: 'walkway_boldregular';
+    font-size: 25px;
+}
+
+.profile
+{
+    display: inline-block;
+    height: 80%;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 6.25%;
+}
+
+.profile-pic
+{
+    width: 76%;
+    margin-left: 12%;
+    border-radius: 100%;
 }
     

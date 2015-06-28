@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="main.css"> 
     </head>
     <body>
-        <div id = main>
+        <div id = black>
             <div id = header>
                 <ls>
                     <ld>About</ld>
@@ -21,18 +21,38 @@
                 <h1>"School smarts, but no street smarts."</h1>
             </center>
         </div>
-        <div id = about>
-            
+        
+        
+        <div id = white>
+                <div id = text>
+                    <h2>HoKo (abbreviation)</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta lacus at risus euismod fermentum. Sed est metus, finibus ac imperdiet quis, pellentesque in justo. Nunc massa lectus, semper vel nibh blandit, ultricies porttitor ligula. Integer congue, libero et ultrices ultricies, urna tortor dictum ante, a tempor lorem elit eu massa. Vestibulum sit amet sem mattis, ornare metus consectetur, scelerisque elit.</p>
+                </div>
+        </div>
+        
+        
+        <div id = black2>
+            <div class = profile>
+                <img src = "img/henry.png" class = profile-pic>
+            </div>
+            <div class = profile>
+                <img src = "img/andrew.jpg" class = profile-pic>
+            </div>
+            <div class = profile>
+                <img src = "img/Eric_Holder_official_portrait.png" class = profile-pic>
+            </div>
         </div>
     </body>
     
     <script language="javascript">
         function autoResizeDiv()
         {
-            document.getElementById('main').style.height = window.innerHeight * 1.05 + 'px';
-            document.getElementById('main').style.width = window.innerWidth + 'px';
-            document.getElementById('about').style.height = window.innerHeight * 1.05 + 'px';
-            document.getElementById('about').style.width = window.innerWidth + 'px';
+            document.getElementById('black').style.height = window.innerHeight * 1.05 + 'px';
+            document.getElementById('black').style.width = window.innerWidth + 'px';
+            document.getElementById('white').style.height = window.innerHeight * 1.05 + 'px';
+            document.getElementById('white').style.width = window.innerWidth + 'px';
+            document.getElementById('black2').style.height = window.innerHeight * 1.05 + 'px';
+            document.getElementById('black2').style.width = window.innerWidth + 'px';
             
         }
         window.onresize = autoResizeDiv;

@@ -30,7 +30,11 @@ body{
     background-color: white;
 }
 
-#text{
+#white2{
+    background-color: white;
+}
+
+.text{
     width: 50%;
     height: 85%;
     margin: auto;
@@ -44,15 +48,16 @@ ld{
     font-family: 'walkway_boldregular';
 }
 
-ld:hover{
-    color: #8ff8ff;
-}
 
 h1{
     font-family: 'walkway_boldregular';
     color: white;
     font-size: 40px;
     margin-top: 4%; 
+}
+
+a{
+    text-decoration: none;
 }
 
 h2{
@@ -80,5 +85,6 @@ p{
     width: 76%;
     margin-left: 12%;
     border-radius: 100%;
+    border: 2px solid #8ff8ff;
 }
     

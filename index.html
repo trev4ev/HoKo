@@ -8,9 +8,9 @@
         <div id = black>
             <div id = header>
                 <ls>
-                    <ld>About</ld>
-                    <ld>Projects</ld>
-                    <ld>Contact</ld>
+                    <ld id = a>About</ld>
+                    <ld id = p>Projects</ld>
+                    <ld id = c>Contact</ld>
                 </ls>
             </div>
             
@@ -24,9 +24,9 @@
         
         
         <div id = white>
-                <div id = text>
+                <div class = text>
                     <h2>HoKo (abbreviation)</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta lacus at risus euismod fermentum. Sed est metus, finibus ac imperdiet quis, pellentesque in justo. Nunc massa lectus, semper vel nibh blandit, ultricies porttitor ligula. Integer congue, libero et ultrices ultricies, urna tortor dictum ante, a tempor lorem elit eu massa. Vestibulum sit amet sem mattis, ornare metus consectetur, scelerisque elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta lacus at risus euismod fermentum. Sed est metus, <span style = "color:#8ff8ff">finibus</span> ac imperdiet quis, pellentesque in justo. Nunc massa lectus, semper vel nibh blandit, ultricies porttitor ligula. Integer congue, libero et ultrices ultricies, urna tortor dictum ante, a tempor lorem elit eu massa. Vestibulum sit amet sem mattis, ornare metus consectetur, scelerisque elit.</p>
                 </div>
         </div>
         
@@ -39,8 +39,21 @@
                 <img src = "img/andrew.jpg" class = profile-pic>
             </div>
             <div class = profile>
-                <img src = "img/Eric_Holder_official_portrait.png" class = profile-pic>
+                <img src = "img/trevor.jpg" class = profile-pic>
             </div>
+        </div>
+        
+        <div id = white2>
+            <div class = text>
+                    <h2>Projects</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta lacus at risus euismod fermentum. Sed est metus, <span style = "color:#8ff8ff">finibus</span> ac imperdiet quis, pellentesque in justo. Nunc massa lectus, semper vel nibh blandit, ultricies porttitor ligula. Integer congue, libero et ultrices ultricies, urna tortor dictum ante, a tempor lorem elit eu massa. Vestibulum sit amet sem mattis, ornare metus consectetur, scelerisque elit.</p>
+                </div>
+        </div>
+        
+        <div id = black3>
+            <center>
+                <a href="mailto:hoko.contact@gmail.com"><h1 id = email>HoKo.Contact@gmail.com</h1></a>
+            </center>
         </div>
     </body>
     
@@ -53,9 +66,17 @@
             document.getElementById('white').style.width = window.innerWidth + 'px';
             document.getElementById('black2').style.height = window.innerHeight * 1.05 + 'px';
             document.getElementById('black2').style.width = window.innerWidth + 'px';
+            document.getElementById('white2').style.height = window.innerHeight * 1.05 + 'px';
+            document.getElementById('white2').style.width = window.innerWidth + 'px';
+            document.getElementById('black3').style.height = window.innerHeight * 0.4 + 'px';
+            document.getElementById('black3').style.width = window.innerWidth + 'px';
             
         }
         window.onresize = autoResizeDiv;
         autoResizeDiv();
     </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.color.js"></script>
+    <script src="js/jquery.color.svg-names.js"></script>
+    <script src="js/app.js"></script> 
 </html>
